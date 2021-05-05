@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*<<<<<<<<<<<<<<<<<<<<<<<    page 1 css starts     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.header{
+    font-family: 'Montserrat', sans-serif;
+     font-style: italic;
+   /*  border: 2px solid transparent; */
+     background-color: rgba(7, 27, 27, 0.336), 0.274;
+     /* border-sizing:border-box;
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.2)) , url(../img/BEST1.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;*/
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(BEST1.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
+ height:inherit;
+ height:100vh;
+ display: inline-block;
+ height: 90vh;}
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+         
+  }
+
+ /*background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0,0,0,0.5) ) */       
+
+.a1{
+
+display: inline-block;
+float: right;
+padding-right: 50px;
+
+} 
+
+
+.class1::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.ul .a1{
+     margin-bottom:2px;
+    padding: 10px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    word-spacing:2px;
+    word-spacing: inherit;
+}
+.ul:link{
+color:white;
+    text-decoration: none;
+}
+.ul:visited{
+    color:blue;
+    text-decoration:none;
+}
+.ul:hover{
+    color:green;
+    text-decoration: none;
+}
+.div1{
+  /*  border:2px solid white;*/
+ 
+    text-decoration-color: white;
+    color: white;
+
+    text-align: center;
+    border-inline-end: border-box;
+    padding-left: 400px;
+    padding-right: 400px;
+float:centre;
+padding-top: 100px;
+
+
+}
+
+/*body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/BEST1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+height:inherit;
+height:100vh;
+display: inline-block;
+}*/
+.h1{
+    text-transform: uppercase;
+}
+.h2{
+    text-align: left;
+    color: rgb(179, 34, 34)218, 47, 47;
+}
+.p1{
+    display: inline-block;
+ /*   border: 2px solid white;*/
+ padding-top: 20px;
+ font-size: 20px;
+ text-transform: uppercase;
+}
+body::after{
+content: '';
+display:inline-block;
+clear:both;
+}
+/*>>>>>>>>>>>>>>>>  >>>              page1 css ends here        >>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<< page2 css starts  >>>>>>>>>>>>>.>>>>>>>>>>>>>*/
+.showcase{
+    background-color: #ddd;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.row{
+    height: 300px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 30px 0px #aaa;
+}
+.row::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.row1{
+    margin-bottom: 100px;
+}
+.row2{
+    margin-top: 100px;
+}
+.row1 .imagebox , .row2 .textbox{
+    float:left;
+    width: 47%;
+}
+.row2 .imagebox, .row1 .textbox{
+    float:right;
+    width: 47%;
+}
+.row .imagebox{
+  /*  border: 1px solid green;*/
+    height: 100%;
+}
+
+.row .textbox{
+  /* border: 1px solid green;*/
+   padding: 30px;
+    
+}
+.row .imagebox .img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+.showcase{
+    font-family: 'Montserrat', sans-serif;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+}
+.textpara{
+    font-weight: 100;
+}
+.more{
+    background-color: #ddd;
+            border: 2px solid rgb(233, 90, 90);
+            border-radius: 100px;
+            color: rgb(233, 90, 90);
+            font-weight: 800;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 0.5em, 1.5em;
+            margin: 0.5em, 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+}
+.more:hover{
+    background-color: #fcf3f2;
+}
+
+/* ################### styling of footer  ########################
+.footer{
+    background-color: rgba(3, 22, 22, 0.959);
+    padding-bottom: 10px;
+}
+
+.div2{
+    display: inline-block;
+    border: 1px solid black;
+}
+.div2 .list2{
+    float: right;
+    padding-right: 10px;
+    
+    margin-top:5px ;
+    margin-bottom: 5px;
+}
+ .list2:link{
+    color: gray;
+}
+.list2:visited{
+    color:green;
+}
+ .list2:hover{
+    color: red;
+    text-decoration: none;
+}                                            */
+/*.footer{
+    margin: 50px;
+    margin-bottom: 50px;
+}*/
+/*.box{
+    width: 33%;
+    float:left;
+    text-align: center;
+    border: 2px solid red;
+}*/
+/*.div3::after{
+    content: '';
+    display: block;
+    clear: both;
+}*/
+.container2{
+    display: inline-block;
+    text-align: center;
+    margin-left: 185px;
+    margin-top: 120px;
+    margin-right: 185px;
+/*border: 2px solid red;*/
+}
+.box{
+    float: left;
+/*border: 1px solid red;*/
+box-shadow: 5px,5px,10px,5px black;
+height: 30%;
+width: 30%;
+padding:10px;
+
+}
+/*.paramedium{
+    text-align: center;
+    height: 33%;
+}*/
+.box-1 , .box-3{
+    background-color: #263238;
+    color: white;
+}
+.box-2{
+    background-color: #ff416c;
+    
+    color:#fff;
+}
+/* ##################  styling footer  ####################3*/
+.footer1{
+    background-color: #263238;
+    color: #fff;
+    padding:20px;
+    text-align: center;
+   
+    margin-top: 50px;
+  
+}
+/*################# about us ##################*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;}
+    .class3{
+    margin-left: 200px;
+    border-bottom:5px solid #e53946;
+    margin-top: 50px;
+    width: 800px;
+}
+.para3{
+    margin-left: 200px;
+    margin-top: 10px;
+    
+    width: 800px;
+}
+.options{
+    margin-left: 200px;
+    margin-top: 10px;
+    
+    width: 800px;
+}
+ul{
+    list-style: none;
+}
+.options{
+  /*  border: 2px solid red;*/
+    text-align: center;
+}
+.options::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.options .right{
+float: right;
+width: 50%;
+}
+.options .left{
+    float: left;
+width: 50%;
+}
+.listitem li::before{
+    content: '\2713';
+    font-weight: bolder;
+    color: #e63849;
+    padding-right: 10px;
+}
+.countitem{
+    margin-left: 200px;
+   margin-top: 20px;
+    
+    width: 800px;
+ /*   border: 2px solid red;*/
+}
+.data{
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+}
+.countitem::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.countitem span{
+    font-size: 30px;
+    font-weight: 1000;
+    color: #e63849;
+}
+.countitem p{
+    font-weight: 700;
+}
+.banner{
+    margin-left: 200px;
+   margin-top: 50px;
+    
+    width: 800px;
+ /*   border: 2px solid black;*/
+    text-align: center;
+    padding: 20px;
+    background-color: #e63849;
+}
+.text{
+    float: left;
+    color: white;
+}
+.button{
+    float: right;
+    border: 1px solid white;
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right:30px
+    
+    
+   text-align :center;
+   /* border-radius: 100px;*/
+
+ }
+.button:hover{
+    background-color: #e63849;
+}
+.banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.button:link{
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    color: green;
+    text-decoration: underline;
+}
+.button:active{
+    color: blue;
+    text-decoration: none;
+}
+/*############# styling contact us page###############3*/
+.sec{
+   margin: 50px ;
+    background-color:#fff;
+}
+
+.address{
+   /* border: 2px solid green;*/
+    float: left;
+    width: 35%;
+    height: 70vh;
+  background-color: rgb(255, 187, 187);
+    padding: 10px;
+    margin-left: 150px;
+    height: 500px;
+}
+.form{
+   /* border: 2px solid yellow;*/
+    float: right;
+width: 35%;
+background-color: rgb(255, 187, 187);
+margin-right: 150px;
+padding: 10px;
+
+}
+.sec::after{
+    content: '';
+display: inline-block;
+clear: both;
+
+}
+.address i{
+    display: inline-block;
+    margin-right: 10px;
+}
+.address h2{
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+.address p{
+    color: #e63849;
+}
+.address .head2{
+    margin-bottom:5px ;
+    margin-top: 5px;
+}
+.address .head1{
+    margin-bottom:5px ;
+}
+.address .call{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.address img{
+    max-width: 80%;
+    min-height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    object-position: right;
+}
+/*###################form styling#################*/
+.form-element{
+    font-size: 20px;
+    
+}
+.form .contact{
+    border-bottom: 3px solid #e63849;
+    margin-bottom: 20px;
+}
+.form p{
+    margin-bottom: 20px;
+}
+.form label{
+    display: block;
+}
+.form input{
+    padding: 5px;
+    width: 98%;
+    
+}
+.form .form-element{
+    margin-bottom: 10px;
+}
+.form label::after{
+    content:'*';
+    color: #e63849;
+}
+.form textarea{
+    width: 99%;
+    height: 100px;
+}
+.form{
+    padding: 10px;
+    height: 500px;
+}
+.lastbutton{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #e63849;
+    color:white;
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
